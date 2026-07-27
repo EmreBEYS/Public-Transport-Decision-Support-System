@@ -1,0 +1,28 @@
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+simulation_log.txt
+logs/*
+!logs/.gitkeep
+
+# Build
+build/
+dist/
+*.exe
+
+# Virtual Environment
+venv/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
+
+# Pytest
+.pytest_cache/
